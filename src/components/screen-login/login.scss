@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #b4528b23;
+    color: #333;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+    margin: 16px;
+    border-radius: 12px;
+  }
+  
+  .box-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 80vh;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border-color: #b4528b;
+    box-shadow: 0 0 5px rgba(180, 82, 139, 0.5);
+  }
+  
+  .box-left {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oscine' , sans-serif;
+    background-color: #b4528b9c; 
+    gap: 36px;
+  }
+
+  .box-left h2 {
+    font-family: "Exo 2", serif;
+    color: white;
+  }
+
+  .box-left h3 {
+    font-family: "Exo 2", serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.794);
+  } 
+  
+  .box-left .img {
+    width: 260px;
+  }
+  
+  .logo {
+    max-width: 80%;  // Ajusta o tamanho da logo
+    height: auto;
+  }
+  
+  .box-right {
+    width: 50%;
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-right h2 {
+    font-family: "Exo 2", serif;
+    color: #b4528bf5;
+  }
+  
+  .input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input:focus {
+    border-color: #b4528b;
+    outline: none; 
+    box-shadow: 0 0 5px rgba(180, 82, 139, 0.5);
+    }
+  
+  .btn-login {
+    width: 80%;
+    padding: 10px;
+    background-color: #b4528b;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-login:hover {
+    background-color: #b4528b9c;
+  }
+  
